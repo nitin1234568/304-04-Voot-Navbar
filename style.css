@@ -1,0 +1,25 @@
+.main-container ul
+{
+    background-color: rgb(19, 2, 35);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style:none;
+    color: white;
+    cursor: pointer;
+    flex-wrap: wrap;
+    
+
+    
+}
+@media(max-width:768px)
+{
+     .main-container ul
+    { 
+      flex-direction:column;
+    }
+    li 
+    {   width: 100px;
+        margin-top: 20px;
+    }
+}
